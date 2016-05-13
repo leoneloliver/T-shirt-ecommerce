@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- 
+
+ _                           _   _____ _ _           _           
+| |                         | | |  _  | (_)         (_)          
+| |     ___  ___  _ __   ___| | | | | | |___   _____ _ _ __ __ _ 
+| |    / _ \/ _ \| '_ \ / _ \ | | | | | | \ \ / / _ \ | '__/ _` |
+| |___|  __/ (_) | | | |  __/ | \ \_/ / | |\ V /  __/ | | | (_| |
+\_____/\___|\___/|_| |_|\___|_|  \___/|_|_| \_/ \___|_|_|  \__,_|
+                                                                 
+Front-end Developer: leoneloliver@gmail.com
+This website was made with Love, Html, Css, Javascript, Jquery, ReactJS, Material Design.
+
+-->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>T-shirt</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about" class="smoothScroll">about</a></li>
+        <li><a href="#store" class="smoothScroll" id="show-store">sales</a></li>
+        <li><a href="#store" class="smoothScroll" id="show-tshirt">t-shirt</a></li>
+        <li><a href="#store" class="smoothScroll" id="show-all">all t-shirts</a></li>
+        <li id="cart"><a href="#"><i class="large material-icons">shopping_cart</i></a>
+          <div class="info-cart" ><a class="btn-floating btn-large waves-effect waves-light red"></a></div>
+        </li>
+          
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#" class="cart-link">Cart</a>&nbsp;<a href="#" id="close" class="cart-link">X</a></li>
+       
+        <div id="base">
+
+        </div>
+         <li><a href="#store" class="nw waves-effect waves-light btn-large red full smoothScroll">Continue shopping</a></li>
+
+
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <!-- <h1 class="header center teal-text text-lighten-2"></h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center">
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section" id="store">
+      <h4 class="center title-section">New Products</h4>
+    
+      <div id="prod">
+      <!-- Load ReactJS list products -->
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">New collection and new Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row" id="detail">
+        <div class="col s12">
+          
+          <h4 class="center">T-shirt Details </h4>
+          <div>
+            <div class="col s12 m6 l6">
+              <img src="img/product1.jpg" id="img-large">
+            </div>
+            <div class="col s12 m6 l6">
+              <p class="left-align light">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              </p>
+              <div class="review">
+                <i class="small material-icons y">grade</i>
+                <i class="small material-icons y">grade</i>
+                <i class="small material-icons y">grade</i>
+                <i class="small material-icons y">grade</i>
+                <i class="small material-icons g">grade</i>
+
+              </div>
+              <div class="light price center-align">$ 13,99</div>
+              <a href="#cart" ng="" class="waves-effect waves-light btn-large red full smoothScroll buy">Buy now</a>
+              <a href="#logo-container" class="smoothScroll more-product">
+                more products<i class="small material-icons">loyalty</i>
+              </a>
+            </div>
+            
+
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 " id="about">
+          <h5 class="white-text">Abaut Us</h5>
+          <p class="grey-text text-lighten-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            
+            <li><a href="#store" class="smoothScroll white-text" id="show-store">sales</a></li>
+            <li><a href="#store" class="smoothScroll white-text" id="show-tshirt">t-shirt</a></li>
+            <li><a href="#store" class="smoothScroll white-text" id="show-all">all t-shirts</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Social Media</h5>
+          <ul>
+            <li><a class="white-text" href="#!"><i class="fa fa-facebook"></i>&nbsp;Facebook</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-twitter"></i>&nbsp;Twitter</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-google-plus"></i>&nbsp;Google+</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made with <i class="fa fa-heart"></i> by <a class="brown-text text-lighten-3" href="http://leoneloliveira.weebly.com/">Leonel Oliveira</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+  <script type="text/babel" src="js/list.js"></script>
+
+  
+
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+  </body>
+</html>
