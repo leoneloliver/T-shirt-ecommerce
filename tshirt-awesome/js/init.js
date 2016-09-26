@@ -77,30 +77,6 @@ function removeCart(){
 
 
 
-// $("#show-tshirt").click(function(){
-//   window.setTimeout(function(){
-//       $(".t-shirt").fadeIn();
-//       $(".store").fadeOut();
-//   },1000);
-  
-// });
-
-// $("#show-store").click(function(){
-//   window.setTimeout(function(){
-//       $(".store").fadeIn();
-//       $(".t-shirt").fadeOut();
-//   },1000);
-  
-// });
-
-// $("#show-all").click(function(){
-//   window.setTimeout(function(){
-//       $(".store").fadeIn();
-//       $(".t-shirt").fadeIn();
-//   },1000);
-  
-// });
-
 $("#close").click(function() {
   $('.button-collapse').sideNav('hide');
   $("#show-all").trigger("click");
@@ -170,12 +146,3 @@ function zoomtBtn(){
       });
     });
 }
-
-
-
-
-
-
-
-
-
