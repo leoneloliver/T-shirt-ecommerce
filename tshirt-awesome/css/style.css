@@ -1,11 +1,4 @@
 /* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -86,8 +79,6 @@ footer.page-footer {
   opacity: 9.9;
 
 }
-
-
 .product img{
   cursor: pointer;
   width: 90%;
@@ -116,8 +107,6 @@ footer.page-footer {
 -ms-transform: scale(1.4) rotate(5deg);
 transform: scale(1.4) rotate(5deg);
 }
-
-
 .product img.zoom{
    -moz-transform: scale(1.4) rotate(-5deg);
 -webkit-transform: scale(1.4) rotate(-5deg);
@@ -125,10 +114,6 @@ transform: scale(1.4) rotate(5deg);
 -ms-transform: scale(1.4) rotate(-5deg);
 transform: scale(1.4) rotate(-5deg);
 }
-
-
-
-
 .product .icon-block{
   text-align: center;
   min-height: 331px;
