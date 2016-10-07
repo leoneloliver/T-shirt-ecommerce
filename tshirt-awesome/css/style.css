@@ -3,25 +3,21 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
 p {
   line-height: 2rem;
 }
-
 .button-collapse {
   color: #26a69a;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
+.parallax-container .section {
+  width: 100%;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -37,7 +33,6 @@ p {
     top: 0;
   }
 }
-
 .col.s12.m6.l3{
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -45,14 +40,12 @@ p {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
 }
-
 footer.page-footer {
   margin: 0;
 }
@@ -68,7 +61,6 @@ footer.page-footer {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   opacity: 0.1;
-  
 }
 .col.s12.m6.l3 img.showit{
   -webkit-transition: all 0.5s ease;
@@ -77,7 +69,6 @@ footer.page-footer {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   opacity: 9.9;
-
 }
 .product img{
   cursor: pointer;
@@ -87,10 +78,8 @@ footer.page-footer {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  
 }
 .product img:hover{
-  
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
@@ -102,17 +91,17 @@ footer.page-footer {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -moz-transform: scale(1.4) rotate(5deg);
--webkit-transform: scale(1.4) rotate(5deg);
--o-transform: scale(1.4) rotate(5deg);
--ms-transform: scale(1.4) rotate(5deg);
-transform: scale(1.4) rotate(5deg);
+  -webkit-transform: scale(1.4) rotate(5deg);
+  -o-transform: scale(1.4) rotate(5deg);
+  -ms-transform: scale(1.4) rotate(5deg);
+  transform: scale(1.4) rotate(5deg);
 }
 .product img.zoom{
    -moz-transform: scale(1.4) rotate(-5deg);
--webkit-transform: scale(1.4) rotate(-5deg);
--o-transform: scale(1.4) rotate(-5deg);
--ms-transform: scale(1.4) rotate(-5deg);
-transform: scale(1.4) rotate(-5deg);
+  -webkit-transform: scale(1.4) rotate(-5deg);
+  -o-transform: scale(1.4) rotate(-5deg);
+  -ms-transform: scale(1.4) rotate(-5deg);
+  transform: scale(1.4) rotate(-5deg);
 }
 .product .icon-block{
   text-align: center;
@@ -140,7 +129,6 @@ transform: scale(1.4) rotate(-5deg);
     margin-bottom: 52px;
 }
 .full{width: 100%}
-
 .info-cart{
   width: 100px;
   opacity: 0.0;
@@ -157,7 +145,6 @@ transform: scale(1.4) rotate(-5deg);
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-
 }
 .show{
   width: 60px;
@@ -190,7 +177,6 @@ img.cart-tmb{
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 img.cart-tmb.move{
   width: 85%;
   -webkit-transform: rotate(-360deg);
@@ -204,8 +190,6 @@ img.cart-tmb.move{
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
-
 .row.row-cart {
     padding-right: 23px;
     border-bottom: 1px solid #CBCBCB;
@@ -222,8 +206,6 @@ a.nw.waves-effect.waves-light.btn-large.red.full.smoothScroll {
 }
 .t-shirt{
   display: none;
-
-
 }
 .cart-link{
   float: left;
