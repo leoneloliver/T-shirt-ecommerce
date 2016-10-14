@@ -1,9 +1,7 @@
 var ProductRow = React.createClass({
     render: function() {
         
-       
         return (
-
         <div className="col s12 m6 l3">
           <div className="icon-block">
          
@@ -14,8 +12,6 @@ var ProductRow = React.createClass({
             <div className="add"><a data-photo={this.props.product.photo} className="btn-floating btn-large waves-effect waves-light red"><i className="material-icons">add</i></a></div>
           </div>
         </div>
-                
-  
         );
     }
 });
@@ -32,23 +28,18 @@ var ProductAll = React.createClass({
             // lastCategory = product.category;
         });
         return (
-            <div className="row product">{rows}</div>
-            
+            <div className="row product">{rows}</div>         
         );
     }
 });
-
 
 var Mylist = React.createClass({
     render: function() {
         return (
-           
-                <ProductAll products={this.props.products} />
-            
+                <ProductAll products={this.props.products} />     
         );
     }
 });
-
 
 var PRODUCTS = [
   {price: '$13.99', stocked: true, name: 'HTML', photo: 'img/product1.jpg'},
@@ -65,5 +56,3 @@ ReactDOM.render(
     <Mylist products={PRODUCTS} />,
     document.getElementById('prod')
 );
-
-
