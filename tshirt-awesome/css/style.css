@@ -27,7 +27,6 @@ p {
     top: 10%;
   }
 }
-
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -159,7 +158,6 @@ footer.page-footer {
   -o-transition: all 0.9s ease;
   -ms-transition: all 0.9s ease;
   transition: all 0.9s ease;
-
 }
 img#img-large {
   width: 100%;
@@ -230,10 +228,8 @@ a.delete-cart {
   width: 75px;
   font-size: 18px;
   color: #5a5a5a;
-  /* background: red; */
   height: 31px;
   padding-bottom: 20px;
   padding: 0;
   padding-top: 0;
-  /* margin-left: -17px; */
 }
