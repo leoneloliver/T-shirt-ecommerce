@@ -3,4 +3,4 @@
 Ecommerce Front-end prototype using ReactJS, Html5, Css3, Jquery and Javascript.
 This application was developed for study purpose.
 
-[Demo here](http://onclickmidia.net/tshirt-awesome) 
+[Demo here](https://tshirt-awesome.netlify.com/) 
